@@ -1,0 +1,101 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+::after,::before,*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+border: none;
+outline: none;
+text-decoration: none;
+list-style: none;
+
+}
+body{
+    background-color: #140d816b;
+}
+
+.container{
+    width: 600px;
+    min-height: 400px;
+    background-color: palevioletred;
+    margin: 0px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 15px green;
+    max-height: 100vh;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.input_button_parent{
+     background-color: #fff;
+    padding: 8px 5px;
+    display: flex;
+    border-radius: 10px;
+    margin: 10px 0px;
+
+}
+.input{
+    padding: 8px 25px;
+    flex-grow: 1;
+    font-size: 18px;
+    background-color: transparent;
+}
+.add{
+    background-color: orange;
+    width: 100px;
+   border-radius: 8px;
+   font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    cursor: pointer;
+   
+}
+.add:hover{
+    background-color: rgba(255, 166, 0, 0.507);
+}
+
+.titile{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(20, 218, 168);
+}
+
+.parent_of_li{
+    width: 100%;
+    background-color: aqua;
+    padding: 8px 5px;
+    border-radius: 5px;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-height: 200px;
+}
+
+.item{
+    border-radius: 10px;
+    background-color: rgb(62, 179, 140);
+    padding: 10px 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+.remove_btn {
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+.remove_btn .icon{
+    font-size: 20px;
+}
